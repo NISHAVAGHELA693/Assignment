@@ -13,6 +13,7 @@ import { FontAwesome } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
+
 const Home = () => {
   const [todos, setTodos] = useState([]);
   const todoRef = firebase.firestore().collection('todos');
