@@ -8,7 +8,6 @@ import {
   TouchableOpacity,
   Keyboard,
 } from 'react-native';
-
 import { firebase } from './config';
 import { FontAwesome } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
